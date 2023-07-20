@@ -36,7 +36,7 @@ public class ArrayExample2 {
 		
 		for(int i=0; i<arr.length;i++) {
 			copyArr1[i]=arr[i];
-		}
+		} 
 		// 2. System.arraycopy(원본배열, 원본 복사 시작 인덱스, 
 		// 복사배열,복사배열의 삽입 시작 인덱스, 복사길이);
 	   int[] copyArr2 = new int [arr.length];

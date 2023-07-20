@@ -71,7 +71,7 @@ public class ArrayExample1 {
 			int[] arr = new int[4];
 			
 			arr[0] = 100;
-			//배열의 결이 (몇 칸인가) : 배열 명.legth
+			//배열의 결이 (몇 칸인가) : 배열 명.length
 			System.out.println(arr.length);
 			
 			// 배열과 for문
@@ -267,7 +267,7 @@ public class ArrayExample1 {
 			String input = sc.nextLine(); // 한줄 띄어쓰기 포함 입력받기
 			char[] arr =new char[input.length()];
 			for(int i = 0; i<arr.length; i++)
-			{ arr[1] = input.charAt(i);
+			{ arr[i] = input.charAt(i);
 				// arr[i] 에 입력받은 문자열 중 i 번째 문자를 대입
 			}
 		
