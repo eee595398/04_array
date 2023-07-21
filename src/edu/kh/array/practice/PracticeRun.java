@@ -11,6 +11,7 @@ public static void main(String []args) {
 
 	//pr.practice5();
 	pr.practice6();
+	pr.practice7();
 		}
 		
 }

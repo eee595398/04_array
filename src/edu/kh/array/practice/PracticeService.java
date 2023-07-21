@@ -111,10 +111,24 @@ public class PracticeService {
   
   public void practice6() {
 	  
+	  Scanner sc = new Scanner(System.in);
 	  System.out.println("정수 : ");
+	  int input = sc.nextInt();
+	  int[] arr = new int[input];
+	  for(int i=0;i<arr.length; i++) {
+		 arr[i]=input;
+		  System.out.println("배열"+ i +" 번째 인덱스에 넣을 값 :");
+	  }
+	  int input1 = sc.nextInt();
+	  
+	  
+	 
   }
   
   
-  
+  public void practice7() {
+	  
+	  
+  } 
   
 }
